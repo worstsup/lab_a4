@@ -138,7 +138,7 @@ int main(void) {
     printf("1. Вариант А4.1 (байтовые массивы)\n");
     printf("2. Вариант А4.2 (массивы слов)\n");
     printf("Введите 1 или 2: ");
-    while (true) {
+    while (1) {
         printf("Введите 1 или 2: ");
         if (scanf_s("%d", &choice) == 1 && (choice == 1 || choice == 2)) {
             break;
